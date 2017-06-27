@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		942B69E71DF39F1500090CE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942B69E61DF39F1500090CE0 /* AppDelegate.swift */; };
+		942B69E91DF39F1500090CE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942B69E81DF39F1500090CE0 /* ViewController.swift */; };
+		942B69EC1DF39F1500090CE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942B69EA1DF39F1500090CE0 /* Main.storyboard */; };
+		942B69EE1DF39F1500090CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942B69ED1DF39F1500090CE0 /* Assets.xcassets */; };
+		942B69F11DF39F1500090CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942B69EF1DF39F1500090CE0 /* LaunchScreen.storyboard */; };
+		94AAB3831DF3A3A5003F25A5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AAB3821DF3A3A5003F25A5 /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		942B69E31DF39F1500090CE0 /* Doors Open Ottawa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doors Open Ottawa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942B69E61DF39F1500090CE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		942B69E81DF39F1500090CE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		942B69EB1DF39F1500090CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		942B69ED1DF39F1500090CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		942B69F01DF39F1500090CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		942B69F21DF39F1500090CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94AAB3821DF3A3A5003F25A5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942B69E01DF39F1500090CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		942B69DA1DF39F1500090CE0 = {
+			isa = PBXGroup;
+			children = (
+				942B69E51DF39F1500090CE0 /* Doors Open Ottawa */,
+				942B69E41DF39F1500090CE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		942B69E41DF39F1500090CE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942B69E31DF39F1500090CE0 /* Doors Open Ottawa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		942B69E51DF39F1500090CE0 /* Doors Open Ottawa */ = {
+			isa = PBXGroup;
+			children = (
+				942B69E61DF39F1500090CE0 /* AppDelegate.swift */,
+				942B69E81DF39F1500090CE0 /* ViewController.swift */,
+				942B69EA1DF39F1500090CE0 /* Main.storyboard */,
+				942B69ED1DF39F1500090CE0 /* Assets.xcassets */,
+				942B69EF1DF39F1500090CE0 /* LaunchScreen.storyboard */,
+				942B69F21DF39F1500090CE0 /* Info.plist */,
+				94AAB3821DF3A3A5003F25A5 /* TableViewController.swift */,
+			);
+			path = "Doors Open Ottawa";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		942B69E21DF39F1500090CE0 /* Doors Open Ottawa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942B69F51DF39F1500090CE0 /* Build configuration list for PBXNativeTarget "Doors Open Ottawa" */;
+			buildPhases = (
+				942B69DF1DF39F1500090CE0 /* Sources */,
+				942B69E01DF39F1500090CE0 /* Frameworks */,
+				942B69E11DF39F1500090CE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Doors Open Ottawa";
+			productName = "Doors Open Ottawa";
+			productReference = 942B69E31DF39F1500090CE0 /* Doors Open Ottawa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942B69DB1DF39F1500090CE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "doir0008@algonquinlive.com";
+				TargetAttributes = {
+					942B69E21DF39F1500090CE0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 942B69DE1DF39F1500090CE0 /* Build configuration list for PBXProject "Doors Open Ottawa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 942B69DA1DF39F1500090CE0;
+			productRefGroup = 942B69E41DF39F1500090CE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				942B69E21DF39F1500090CE0 /* Doors Open Ottawa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		942B69E11DF39F1500090CE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942B69F11DF39F1500090CE0 /* LaunchScreen.storyboard in Resources */,
+				942B69EE1DF39F1500090CE0 /* Assets.xcassets in Resources */,
+				942B69EC1DF39F1500090CE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		942B69DF1DF39F1500090CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942B69E91DF39F1500090CE0 /* ViewController.swift in Sources */,
+				94AAB3831DF3A3A5003F25A5 /* TableViewController.swift in Sources */,
+				942B69E71DF39F1500090CE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		942B69EA1DF39F1500090CE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942B69EB1DF39F1500090CE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		942B69EF1DF39F1500090CE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942B69F01DF39F1500090CE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		942B69F31DF39F1500090CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		942B69F41DF39F1500090CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		942B69F61DF39F1500090CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Doors Open Ottawa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.doir0008.Doors-Open-Ottawa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		942B69F71DF39F1500090CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Doors Open Ottawa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.doir0008.Doors-Open-Ottawa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		942B69DE1DF39F1500090CE0 /* Build configuration list for PBXProject "Doors Open Ottawa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942B69F31DF39F1500090CE0 /* Debug */,
+				942B69F41DF39F1500090CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942B69F51DF39F1500090CE0 /* Build configuration list for PBXNativeTarget "Doors Open Ottawa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942B69F61DF39F1500090CE0 /* Debug */,
+				942B69F71DF39F1500090CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 942B69DB1DF39F1500090CE0 /* Project object */;
+}
